@@ -23,7 +23,7 @@ const Precio = styled.p`
 const Cotizacion = ({resultado}) => {
     if(Object.keys(resultado).length === 0) return null;
 
-    console.log(resultado)
+    // console.log(resultado)
 
     return ( 
         <ResultadoDiv>
